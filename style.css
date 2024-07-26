@@ -1,21 +1,28 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /* style top */
-.contenar .top{
+.contenar {
+    background-color: blue;
+    height: 100vh;
+}
+
+.contenar .top {
     position: relative;
     height: 25vh;
     background-color: blue;
 }
 
-.contenar .top .clack a{
+.contenar .top .clack a {
     text-decoration: none;
     font-size: 25px;
     padding: 15PX 20PX;
     color: rgb(136, 158, 225);
 }
+
 /* .contenar .top .row{
     width: 60%;
     height: 20vh;
@@ -25,74 +32,113 @@
     right: 0;
 } */
 /* style form */
-.color{
+.color {
     background-color: blue;
+    display: grid;
+    justify-items: center;
+    height: 500px;
 }
-.form{
+
+.form {
     background-color: white;
-    border-radius: 15px 15px 0 0;
-    padding-top: 20px;
+    border-radius: 100px 15px 230px 0;
+    padding: 30px;
 }
-.form form{
+
+.form form {
     display: grid;
     justify-items: center;
     gap: 15px;
     text-align: center;
 }
-.form form a{
+
+.form form a {
     text-decoration: none;
 }
-.form form label{
+
+.form form label {
     font-size: 40px;
 }
-.form form label a{
+
+.form form label a {
     padding: 5px 10px;
 }
-.form form .input{
+
+.form form .input {
     width: 65%;
     height: 30px;
-    font-family:'Font Awesome 5 Free';
+    font-family: 'Font Awesome 5 Free';
     font-weight: 700;
 }
-.form form .remember .pading{
+
+.form form .remember .pading {
     padding-right: 20px;
 }
-.form form .chec{
+
+.form form .chec {
     color: black;
     background-color: blue;
     font-size: 25px;
     padding: 5px 80px;
     border-radius: 10px;
 }
-.form form .chec:hover{
+
+.form form .chec:hover {
     color: blue;
     background-color: rgb(0, 0, 0);
 }
+
+@media (max-width:700px) {
+
+    .contenar {
+        background-color: rgb(255, 255, 255);
+        height: 100vh;
+    }
+
+    .color {
+        background-color: blue;
+        display: grid;
+        justify-items: center;
+        height: auto;
+    }
+
+    .form {
+        background-color: white;
+        border-radius: 15px 15px 0 0;
+        padding-top: 20px;
+    }
+}
+
 /* style sochial */
-.form .sochial .login{
+.form .sochial .login {
     display: flex;
     align-items: center;
     padding: 15px 0;
 }
-.form .sochial .login .lin{
+
+.form .sochial .login .lin {
     width: 30%;
     height: 5px;
     background-color: blue;
 }
-.form .sochial .login .login-with{
+
+.form .sochial .login .login-with {
     width: 40%;
     text-align: center;
 }
-.form .sochial .midia{
+
+.form .sochial .midia {
     text-align: center;
     padding-top: 20px;
 }
-.form .sochial .midia span{
+
+.form .sochial .midia span {
     font-size: 20px;
     padding: 10px;
     border: 0.5px solid black;
 }
-.form .sochial .midia span:hover{
-background-color: black;
-color: white;
+
+.form .sochial .midia span:hover {
+    background-color: black;
+    color: white;
 }
