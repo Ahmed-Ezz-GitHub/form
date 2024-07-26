@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* style top */
+.contenar .top{
+    position: relative;
+    height: 25vh;
+    background-color: blue;
+}
+
+.contenar .top .clack a{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 15PX 20PX;
+    color: rgb(136, 158, 225);
+}
+/* .contenar .top .row{
+    width: 60%;
+    height: 20vh;
+    background-color: blue;
+    border-radius: 0 0 0 150%;
+    position: absolute;
+    right: 0;
+} */
+/* style form */
+.color{
+    background-color: blue;
+}
+.form{
+    background-color: white;
+    border-radius: 15px 15px 0 0;
+    padding-top: 20px;
+}
+.form form{
+    display: grid;
+    justify-items: center;
+    gap: 15px;
+    text-align: center;
+}
+.form form a{
+    text-decoration: none;
+}
+.form form label{
+    font-size: 40px;
+}
+.form form label a{
+    padding: 5px 10px;
+}
+.form form .input{
+    width: 65%;
+    height: 30px;
+    font-family:'Font Awesome 5 Free';
+    font-weight: 700;
+}
+.form form .remember .pading{
+    padding-right: 20px;
+}
+.form form .chec{
+    color: black;
+    background-color: blue;
+    font-size: 25px;
+    padding: 5px 80px;
+    border-radius: 10px;
+}
+.form form .chec:hover{
+    color: blue;
+    background-color: rgb(0, 0, 0);
+}
+/* style sochial */
+.form .sochial .login{
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+}
+.form .sochial .login .lin{
+    width: 30%;
+    height: 5px;
+    background-color: blue;
+}
+.form .sochial .login .login-with{
+    width: 40%;
+    text-align: center;
+}
+.form .sochial .midia{
+    text-align: center;
+    padding-top: 20px;
+}
+.form .sochial .midia span{
+    font-size: 20px;
+    padding: 10px;
+    border: 0.5px solid black;
+}
+.form .sochial .midia span:hover{
+background-color: black;
+color: white;
+}
